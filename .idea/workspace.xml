@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="163f383b-fe1a-4763-8e15-efc32bbe759b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/orican.pdf" afterPath="$PROJECT_DIR$/static/orican.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="163f383b-fe1a-4763-8e15-efc32bbe759b" name="Default" comment="" />
     <ignored path="resume2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,12 +168,12 @@
       <updated>1474814165432</updated>
       <workItem from="1474814167265" duration="4000" />
       <workItem from="1474814172231" duration="1196000" />
-      <workItem from="1474979846975" duration="92000" />
+      <workItem from="1474979846975" duration="213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1292000" />
+    <option name="totallyTimeSpent" value="1413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="6" />
