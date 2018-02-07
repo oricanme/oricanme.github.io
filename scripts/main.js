@@ -184,10 +184,13 @@ function(t) {
         f.style.marginTop = .15 * t.innerHeight + "px"
     }
     function n() {
-        document.addEventListener("click",
-        function(t) {
-            return p++,
-            p >= c.length ? void p--:(v = c[p], void console.log(p))
+        window.addEventListener("load",
+        function(){
+          setInterval(
+              function(t) {
+                return p++,
+                p >= c.length ? void p--:(v = c[p], void console.log(p))
+            }, 5000);
         },
         !1)
     }
@@ -202,12 +205,12 @@ function(t) {
     }
     t.requestAnimationFrame = t.requestAnimationFrame || t.mozRequestAnimationFrame || t.webkitRequestAnimationFrame || t.msRequestAnimationFrame;
     var r = 2e3,
-    h = 2 * Math.PI,
+    h = 2.5 * Math.PI,
     o = 1024,
     d = 150,
     l = "canvas",
-    c = ["亲爱的女孩", "请原谅我的冒犯", "在我遇见你的第一刻", "就被你征服","我们在哪里见过", "也许是梦里","所以才会让我", "辗转反侧！！","我对你一无所知", "害怕由于我的热情"
-    , "会让你受伤", "如果可以，请给我", "相识的机会！", "微信：orican","wait you","Always"],
+    c = ["应凯宁，你好", "请原谅我的冒犯", "在我遇见你的第一刻", "就被你征服","我们在哪里见过", "也许是梦里","所以才会让我", "辗转反侧！！","我不知道", "由于我的热情"
+    , "会不会让你受伤", "如果可以，请给我", "相识的机会！", "微信：orican"],
     f = void 0,
     u = void 0,
     y = [],
@@ -219,7 +222,7 @@ function(t) {
         function t(e) {
             _classCallCheck(this, t);
             var i = e.height,
-            a = 1.2 * Math.random();
+            a = 2.0 * Math.random();
             this.delta = .06,
             this.x = 0,
             this.y = 0,
