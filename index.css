@@ -636,10 +636,16 @@ section {
   margin-left: -28px;
   display: inline-block;
 }
+
+.padding-right {
+
+}
 .experience-place,
 .experience-project-type {
   float: left;
 }
+
+
 .experience-time,
 .experience-title-link {
   float: right;
